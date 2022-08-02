@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	text-align: justify;
+	padding: 0;
+}
+
+ul li > i {
+	font-size: 20px;
+	padding: 0 0.5rem;
+	color: rgb(116, 41, 41);
+}
+
+h3 {
+	text-transform: uppercase;
+}
+.App {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgb(116, 41, 41);
+}
+.weather__container {
+	background-color: white;
+	padding: 5rem;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 1px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.weather__card {
+	display: flex;
+	gap: 2rem;
+	margin: 2rem 0;
+}
+
+.btn {
+	border: 0;
+	padding: 0.5rem;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	background-color: rgb(116, 41, 41);
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+}
