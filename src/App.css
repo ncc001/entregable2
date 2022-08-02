@@ -5,6 +5,12 @@ body {
 img {
 	height: auto;
 	max-width: 100%;
+	background-color: rgba(190, 160, 160, 0.664);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 }
 
 ul {
